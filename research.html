@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Research Interests | Your Name</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Source+Serif+4:opsz,wght@8..60,500;8..60,600;8..60,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="navbar">
+    <a href="index.html" class="brand" aria-label="Home">
+      <span class="brand-mark">YN</span>
+      <span class="brand-name">Your Name</span>
+    </a>
+    <button class="menu-toggle" id="menuToggle" aria-label="Open menu" aria-expanded="false">
+      <svg class="icon" viewBox="0 0 24 24"><path d="M4 7h16M4 12h16M4 17h16"/></svg>
+    </button>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="research.html" class="active" aria-current="page">Research Interests</a></li>
+      <li><a href="publications.html">Publications</a></li>
+      <li><a href="education.html">Education</a></li>
+      <li><a href="contact.html">Contact</a></li>
+      <li><a href="cv.html" class="nav-cv"><svg class="icon" viewBox="0 0 24 24"><path d="M14 3H7a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V8z"/><path d="M14 3v5h5M9 13h6M9 17h6"/></svg>CV</a></li>
+    </ul>
+  </div>
+</header>
+
+<main>
+  <section class="page-hero">
+    <div class="container reveal">
+      <div class="crumbs"><a href="index.html">Home</a> / <span>Research Interests</span></div>
+      <h1>Research Interests</h1>
+      <p>My work sits at the intersection of structural biology and data science, with a focus on turning experimental interaction data into accessible, well-annotated resources.</p>
+    </div>
+  </section>
+
+  <section class="page-body">
+    <div class="container">
+      <div class="research-grid">
+        <article class="card r-card reveal">
+          <div class="r-icon"><svg class="icon" viewBox="0 0 24 24"><circle cx="6" cy="6" r="2.5"/><circle cx="18" cy="8" r="2.5"/><circle cx="9" cy="18" r="2.5"/><path d="M8.3 7l7.4.6M7 8.3l1.4 7.3M16.5 10.2l-5.8 6"/></svg></div>
+          <h3>Protein–Peptide Interactions</h3>
+          <p>Characterising binding interfaces, affinity determinants and recognition motifs that govern how peptides engage protein targets.</p>
+          <div class="tags"><span class="tag">Binding sites</span><span class="tag">Motif discovery</span><span class="tag">Docking</span></div>
+        </article>
+
+        <article class="card r-card reveal">
+          <div class="r-icon"><svg class="icon" viewBox="0 0 24 24"><path d="M7 3c0 6 10 6 10 12s-10 6-10 6M17 3c0 6-10 6-10 12M8 7h8M8 17h8"/></svg></div>
+          <h3>Structural Bioinformatics</h3>
+          <p>Analysing 3D structures and predicted models to understand conformational change, stability and function at the residue level.</p>
+          <div class="tags"><span class="tag">PDB analysis</span><span class="tag">Molecular dynamics</span><span class="tag">AlphaFold</span></div>
+        </article>
+
+        <article class="card r-card reveal">
+          <div class="r-icon"><svg class="icon" viewBox="0 0 24 24"><ellipse cx="12" cy="5" rx="8" ry="3"/><path d="M4 5v7c0 1.7 3.6 3 8 3s8-1.3 8-3V5M4 12v7c0 1.7 3.6 3 8 3s8-1.3 8-3v-7"/></svg></div>
+          <h3>Biological Databases</h3>
+          <p>Designing curated, searchable databases and web platforms that make interaction data findable, accessible, interoperable and reusable (FAIR).</p>
+          <div class="tags"><span class="tag">Data curation</span><span class="tag">MySQL</span><span class="tag">Web platforms</span></div>
+        </article>
+
+        <article class="card r-card reveal">
+          <div class="r-icon"><svg class="icon" viewBox="0 0 24 24"><path d="M12 3v3M12 18v3M3 12h3M18 12h3"/><rect x="7" y="7" width="10" height="10" rx="2"/><path d="M10 10h4v4h-4z"/></svg></div>
+          <h3>Machine Learning for Biology</h3>
+          <p>Building predictive models for interaction propensity and binding affinity from sequence and structural features.</p>
+          <div class="tags"><span class="tag">Python</span><span class="tag">Feature engineering</span><span class="tag">Deep learning</span></div>
+        </article>
+      </div>
+
+      <div class="card focus-box reveal">
+        <div class="r-icon"><svg class="icon" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><circle cx="12" cy="12" r="5"/><circle cx="12" cy="12" r="1"/></svg></div>
+        <div>
+          <h3>Current focus</h3>
+          <p>Building an integrated research platform that links curated protein–peptide interaction records with structural models and predictive scores, so researchers can move from a query to a testable hypothesis in one place.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="container foot">
+    <span>© <span id="year">2026</span> Your Name · Your University</span>
+    <nav><a href="index.html">Home</a><a href="publications.html">Publications</a><a href="education.html">Education</a><a href="contact.html">Contact</a><a href="cv.html">CV</a></nav>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
