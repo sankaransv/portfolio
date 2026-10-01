@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Academic homepage of Sankaran SV — PhD scholar, Department of Biotechnology, IIT Madras.">
+  <title>Contact | Sankaran SV</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<!-- Header and footer come from layout.js (edit them there) -->
+<script src="layout.js"></script>
+
+<main>
+  <section class="hero-band">
+  </section>
+  <section class="page-body">
+    <div class="container contact-grid">
+      <div class="card pad">
+        <div class="c-row"><div class="c-ico"><svg class="i" viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="M3 7l9 6 9-6"/></svg></div><div><div class="c-label">Email</div><div class="c-val"><a href="mailsnkaran.sv@gmail.com">mailsnkaran.sv@gmail.com</a></div></div></div>
+        <div class="c-row"><div class="c-ico"><svg class="i" viewBox="0 0 24 24"><path d="M3 21h18M5 21V10l7-5 7 5v11M9 21v-6h6v6"/></svg></div><div><div class="c-label">Affiliation</div><div class="c-val">Department of Biotechnology<br>Indian Institute of Technology Madras</div></div></div>
+        <div class="c-row"><div class="c-ico"><svg class="i" viewBox="0 0 24 24"><path d="M12 21s-7-6.2-7-11.5a7 7 0 0 1 14 0C19 14.8 12 21 12 21z"/><circle cx="12" cy="9.5" r="2.5"/></svg></div><div><div class="c-label">Office</div><div class="c-val">Room 517, Block 1, Department of Biotechnology<br>IIT Madras, Chennai 600036</div></div></div>
+        <div class="c-row"><div class="c-ico"><svg class="i" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M9 8v8M12 8h1.5a4 4 0 0 1 0 8H12z"/></svg></div><div><div class="c-label">Profiles</div><div class="c-val">
+          <a href="https://orcid.org/" target="_blank" rel="noopener">ORCID</a> ·
+          <a href="https://www.linkedin.com/" target="_blank" rel="noopener">LinkedIn</a></div></div></div>
+      </div>
+
+      <form class="card pad form-card" id="contactForm" data-email="mailsankaran.sv@gmail.com">
+        <h2 class="section-h"><span class="dot"><svg class="i" viewBox="0 0 24 24"><path d="M22 2L11 13M22 2l-7 20-4-9-9-4z"/></svg></span>Send a message</h2>
+        <p>Submitting opens your email app with the message ready to send.</p>
+        <div class="row2">
+          <div class="field"><label for="cName">Name</label><input id="cName" type="text" placeholder="Your name" required></div>
+          <div class="field"><label for="cEmail">Email</label><input id="cEmail" type="email" placeholder="you@institute.org" required></div>
+        </div>
+        <div class="field"><label for="cSubject">Subject</label><input id="cSubject" type="text" placeholder="Collaboration enquiry"></div>
+        <div class="field"><label for="cMsg">Message</label><textarea id="cMsg" placeholder="Write your message…" required></textarea></div>
+        <button type="submit" class="btn btn-gold"><svg class="i" viewBox="0 0 24 24"><path d="M22 2L11 13M22 2l-7 20-4-9-9-4z"/></svg> Send message</button>
+      </form>
+    </div>
+  </section>
+</main>
+
+<script src="script.js"></script>
+</body>
+</html>
